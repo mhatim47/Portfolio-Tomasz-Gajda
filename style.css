@@ -1,0 +1,24 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gray:#D7D7D7;
+    --gray-2:#909090;
+    --gray-3:#C4C4C4;
+    --gray-4:#8B8B8B;
+    --white:#FFFFFF;
+    --black:#000;
+    --black-lt:#1D1D1D;
+    --black-lt-2:#1A1A1A;
+
+    
+}
+
+body {
+    font-family: Arial, Tahoma;
+    background-color: #eee;
+}
