@@ -456,22 +456,22 @@ article {
     opacity: 1;
 }
 .gallary .project:nth-child(1) {
-    background-image: url(/assets/Disktop/imgs/img-1.png);
+    background-image: url(assets/Disktop/imgs/img-1.png);
 }
 .gallary .project:nth-child(2) {
-    background-image: url(/assets/Disktop/imgs/img-2.png);
+    background-image: url(assets/Disktop/imgs/img-2.png);
 }
 .gallary .project:nth-child(3) {
-    background-image: url(/assets/Disktop/imgs/car.png);
+    background-image: url(assets/Disktop/imgs/car.png);
 }
 .gallary .project:nth-child(4) {
-    background-image: url(/assets/Disktop/imgs/img-2.png);
+    background-image: url(assets/Disktop/imgs/img-2.png);
 }
 .gallary .project:nth-child(5) {
-    background-image: url(/assets/Disktop/imgs/car-revers.png);
+    background-image: url(assets/Disktop/imgs/car-revers.png);
 }
 .gallary .project:nth-child(6) {
-    background-image: url(/assets/Disktop/imgs/img-1.png);
+    background-image: url(assets/Disktop/imgs/img-1.png);
 }
 
 .project-info p {
