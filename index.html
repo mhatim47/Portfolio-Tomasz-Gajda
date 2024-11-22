@@ -7,52 +7,63 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/assets/Disktop/icons/favicon.ico" type="image/x-icon">
 </head>
-<body><div id="block">
-    <!-- header -->
-     <header>
-        <div class="header">
-            <a href="#"><img src="/assets/Disktop/icons/logo.png" width="60" height="50" alt="logo"></a>
-        <nav>
-            <a href="#about-me">About me</a>
-            <a href="#skills">Skills</a>
-            <a href="#portofolio">Portfolio</a>
-            <a href="#contact">contact me</a>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="#">
+            <img src="assets/Mobile/icons/logo-white.png" width="60" height="50" alt="logo">
+
+            </a>
+            <div class="burger-icon">
+                <span></span>
+                <span id="_2nd"></span>
+                <span></span>
+            </div>
+            <ul id="lists" class="lists">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact-me">CONTACT ME</a></li>
+            </ul>
         </nav>
+    </header>
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-container container">
+            <div class="hero-text">
+                <p>Hi i'am</p>
+                <h1>Tomasz Gajda</h1>
+                <p>Front-end Developer/ UI Designer</p>
+                <div class="links">
+                    <a href="#" class="icon"><img src="/assets/Mobile/icons/@.png" width="35" height="35" alt="@"></a>
+                    <a href="#" class="icon"><img src="/assets/Mobile/icons/github.png" width="35" height="35" alt="github logo"></a>
+                    <a href="#" class="icon"><img src="/assets/Mobile/icons/linkedin.png" width="35" height="35" alt="linkedin logo"></a>
+                </div>
+            </div>
+            <img src="assets/Disktop/imgs/man.png" alt=""width="783" height="877"  class="hero-image" >
         </div>
-     </header>
-     <!-- hero section -->
-     <section class="hero container">
-        <div class="info">
-            <p>Hi, Iam </p>
-            <h1>Tomasz Gajda</h1>
-            <p>Front-end Developer / UI Designer</p>
-            <div class="icons">
-                <a href="#" class="icon"><img src="/assets/Disktop/icons/@.png" width="35" height="35" alt="@"></a>
-                <a href="#" class="icon"><img src="/assets/Disktop/icons/github.png" width="35" height="35" alt="github logo"></a>
-                <a href="#" class="icon"><img src="/assets/Disktop/icons/linkedin.png" width="35" height="35" alt="linkedin logo"></a>
+    </section>
+    <article>
+        <div class="container article-container ">
+            <img src="assets/Mobile/imgs/it.png" alt="">
+            <div class="info">
+                <h2>IT BERRIES</h2>
+                <p>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est. Morbi commodo, eros in dignissim tempus, lacus odio rutrum augue, in semper sem magna quis tellus. Etiam enim erat, suscipit eu semper a, dictum sit amet elit. Nunc egestas nisi eget enim gravida facilisis. Pellentesque laoreet varius turpis vel pharetra. Ut ante justo, consequat vitae elementum tempor, accumsan nec eros. </p>
+                <a href="#" class="btn-bar">READ MORE</a>
             </div>
         </div>
-        <div class="image">
-            <img src="/assets/Disktop/imgs/man.png" width="783" height="877" alt="man picture">
-        </div>
-     </section>
-    </div>
-    <!-- description section -->
-    <section class="description">
-    <h1>IT BERRIES</h1>
-    <p>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est. Morbi commodo, eros in dignissim tempus, lacus odio rutrum augue, in semper sem magna quis tellus. Etiam enim erat, suscipit eu semper a, dictum sit amet elit. Nunc egestas nisi eget enim gravida facilisis. Pellentesque laoreet varius turpis vel pharetra. Ut ante justo, consequat vitae elementum tempor, accumsan nec eros. </p>
-    <a href="#" class="btn-bar">read more</a>
-    <!-- <img src="/assets/Disktop/imgs/it.png" alt="IT-logo" width="388" height="575"> -->
-    </section>
+    </article>
     <!-- about me section -->
-    <section id="about-me" class="container">
-        <h1 class="head">about me</h1>
-        <p>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.</p>
+    <section id="about-me" class="container about-me">
+        <h1 class="header">about me</h1>
+        <p>My name is Tomasz Gajda, I'm a third year Applied Computer Science student at the AGH University of Science and Technology in Krakow. I have been learning Front-End technologies for a year and this time was just enough for me to make sure that this is my place in the industry.
+        Membership in the science club developed my design skills, which quickly turned into a new hobby. I am fluent in English (spoken and written) and intermediate Spanish. Apart from designing and programming websites, my passion is all kinds of motorsport - from rallies to the very king of motorsport - formula 1.
+        </p>
         <a href="#" class="btn-bar-b">exploer</a>
         <div class="sprator">
             <img src="/assets/Disktop/imgs/sparatorblack.png" alt="sparatorblack">
         </div>
-        <div class="about-me container">
+        <div class="about-me-container">
             <div class="child">
                 <h1>DESIGN</h1>
                 <p>I can design the website based on your needs and suggestions. I can also create it from scratch by consulting with you during work.</p>
@@ -71,8 +82,8 @@
         </div>
     </section>
     <!-- skills section -->
-    <section id="skills">
-        <h1 class="head">skills</h1>
+    <section id="skills" class="container skills-container">
+        <h1 class="header">skills</h1>
         <div class="category">
             <h1>using now:</h1>
             <div class="skills">
@@ -154,9 +165,9 @@
         </div>
     </section>
     <!-- portofolio -->
-    <section id="portofolio">
-        <div id="bg">
-            <h1 class="head">portofolio</h1>
+    <section id="portfolio" class="portofolio">
+        <div class="bg">
+            <h1 class="header">portofolio</h1>
         </div>
         <div class="gallary">
             <ul>
@@ -236,8 +247,8 @@
         </div>
     </section>
     <!-- contact section -->
-    <section id="contact">
-        <h1 class="head">contact</h1>
+    <section id="contact-me" class="container contact">
+        <h1 class="header">contact</h1>
         <p>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.</p>
         <div class="sprator">
             <img src="/assets/Disktop/imgs/sparatorblack.png" alt="sparatorblack">
@@ -258,7 +269,7 @@
             <a href=""><img src="/assets/Disktop/icons/instagram.png" width="30" height="30" alt=""></a>
             <a href="mailto:example@gmail.com"><img src="/assets/Disktop/icons/mail.png" width="30" height="30" alt=""></a>
         </div>
-        <p><strong>@2020 Tomasz Gajda</strong> All Rights Reserved.</p>
+        <p><strong>@2020 Tomasz Gajda</strong> <br> All Rights Reserved.</p>
     </footer>
     <script src="main.js"></script>
 </body>

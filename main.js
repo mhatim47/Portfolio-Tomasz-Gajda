@@ -18,3 +18,25 @@ switcher.forEach((li) =>{
         document.querySelectorAll(e.target.dataset.cat).forEach(e => e.style.display = 'block');
     });
 })
+const burgerIcon = document.getElementsByClassName("burger-icon")[0];
+const lists = document.getElementById("lists");
+function displayElement() {
+    lists.style.display = "flex";
+    lists.style.opacity = "1";
+}
+function hideElement() {
+    lists.style.opacity = "0";
+    lists.style.display = "none";
+
+}
+if (window.screen.width < 675) {
+    
+    burgerIcon.addEventListener("click", displayElement);
+    burgerIcon.addEventListener("dblclick", hideElement);
+    
+    document.addEventListener('click', (e) => {
+        if(e.target !== burgerIcon ) {
+            hideElement()
+        }
+    })
+}
